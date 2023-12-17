@@ -17,12 +17,12 @@ function Navigator() {
     return (
         <NavigationContainer>
             <Stack.Navigator>
-                {/* <Stack.Screen name="Splash" component={Splash} /> */}
+                <Stack.Screen name="Splash" component={Splash} />
                 <Stack.Screen name="Onboard" component={Onboard} />
                 <Stack.Screen name="OnboardSecond" component={OnboardSecond} />
                 <Stack.Screen name="OnboardThird" component={OnboardThird} />
-                <Stack.Screen name="Login" component={Login} />
                 <Stack.Screen name="Register" component={Register} />
+                <Stack.Screen name="Login" component={Login} />
                 <Stack.Screen name="Home" component={Home} />
             </Stack.Navigator>
         </NavigationContainer>

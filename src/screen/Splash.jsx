@@ -8,7 +8,7 @@ const Splash = ({navigation}) => {
   useEffect(() => {
     const fakeTask = async () => {
 
-      await new Promise(resolve => setTimeout(resolve, 5000));
+      await new Promise(resolve => setTimeout(resolve, 3000));
       navigation.replace('Onboard');
     };
 
@@ -16,8 +16,8 @@ const Splash = ({navigation}) => {
   }, [navigation]);
 
   return (
-    <View>
-      <Text>Red</Text>
+    <View style={{width: "100%", height: "100%", backgroundColor: "#FF5733", display: "flex", justifyContent: "center", alignItems: "center"}}>
+      <Text style={{color: "white", textAlign: "center",}}>Red</Text>
   </View>
   )
 }

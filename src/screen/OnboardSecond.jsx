@@ -18,7 +18,9 @@ const OnboardSecond = ({navigation}) => {
           <View style={{
               backgroundColor: "white",
               height: 300,
-              paddingTop: 20
+              paddingVertical: "10px",
+              paddingHorizontal: "10px",
+              
           }}>
               <Text style={{
                   fontSize: 24,
@@ -28,7 +30,7 @@ const OnboardSecond = ({navigation}) => {
                   textAlign: "center"
 
               }}>Connect's The People You Want </Text>
-              <Text>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet dolorum quae, sit, dignissimos consectetur minima voluptates incidunt soluta maiores assumenda natus! Sed doloremque quae atque, quam at accusamus dolor blanditiis?</Text>
+              <Text style={{textAlign: "center"}}>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet dolorum quae, sit, dignissimos consectetur minima voluptates incidunt soluta maiores assumenda natus! Sed doloremque quae atque, quam at accusamus dolor blanditiis?</Text>
               <Text style={{
                   backgroundColor: "#FF5733",
                   color: "white",
